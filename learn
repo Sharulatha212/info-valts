@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course Details - NPTEL Style</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1740&q=80');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 40px 20px;
+      border-radius: 10px;
+      max-width: 850px;
+      margin: auto;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .course-container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    h1, h2 {
+      color: #d43f00;
+    }
+
+    .section {
+      margin-top: 25px;
+    }
+
+    .section ul {
+      padding-left: 20px;
+    }
+
+    .highlight {
+      font-weight: bold;
+    }
+
+    .week-list li {
+      margin-bottom: 8px;
+    }
+
+    .certificate-note {
+      background-color: #eaf5ff;
+      padding: 15px;
+      border-left: 5px solid #0077cc;
+      margin-top: 15px;
+    }
+
+    .quiz-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #d43f00;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .quiz-button:hover {
+      background-color: #a93300;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="course-container">
+      <h1>📘 Introduction to Web Development</h1>
+      <p><span class="highlight">Course Duration:</span> 8 weeks</p>
+      <p><span class="highlight">Course Type:</span> Core / Elective</p>
+      <p><span class="highlight">Level:</span> Undergraduate</p>
+      <p><span class="highlight">Category:</span> Computer Science and Engineering</p>
+      <p><span class="highlight">Offered by:</span> IIT Madras</p>
+      <p><span class="highlight">Platform:</span> NPTEL - SWAYAM</p>
+
+      <div class="section">
+        <h2>🎓 Instructor</h2>
+        <p><strong>Prof. Ashok Kumar</strong><br>Department of Computer Science, IIT Madras</p>
+      </div>
+
+      <div class="section">
+        <h2>📚 Course Overview</h2>
+        <p>This course introduces the basics of web development, including front-end and back-end technologies like HTML, CSS, and JavaScript. It is aimed at students looking to build dynamic and responsive websites.</p>
+      </div>
+
+      <div class="section">
+        <h2>🧠 Course Objectives</h2>
+        <ul>
+          <li>Understand web page structure using HTML and CSS</li>
+          <li>Learn JavaScript for dynamic interactivity</li>
+          <li>Explore client-server architecture</li>
+          <li>Build simple web apps with basic technologies</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>🗂️ Week-wise Breakdown</h2>
+        <ul class="week-list">
+          <li><strong>Week 1:</strong> Introduction to the Web, Internet, and HTML</li>
+          <li><strong>Week 2:</strong> Deep Dive into HTML Elements</li>
+          <li><strong>Week 3:</strong> CSS Basics and Styling</li>
+          <li><strong>Week 4:</strong> Layouts and Responsive Design</li>
+          <li><strong>Week 5:</strong> JavaScript Basics</li>
+          <li><strong>Week 6:</strong> DOM Manipulation and Events</li>
+          <li><strong>Week 7:</strong> Forms and Input Validation</li>
+          <li><strong>Week 8:</strong> Server-Side Programming Overview</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>📝 Assignments and Exams</h2>
+        <ul>
+          <li>Weekly Assignments: Yes (MCQs)</li>
+          <li>Final Exam: Yes (Proctored, optional for certificate)</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>🏅 Certification</h2>
+        <div class="certificate-note">
+          <p>To earn a certificate:</p>
+          <ul>
+            <li>Average assignment score ≥ 10/25</li>
+            <li>Final exam score ≥ 30/75</li>
+            <li>Final score = 25% assignment + 75% exam</li>
+          </ul>
+          <p>The certificate will include your name, final score, and the official IIT stamp.</p>
+        </div>
+      </div>
+
+      <!-- Attend Quiz Button -->
+      <a href="quiz.html" class="quiz-button">Attend Quiz</a>
+
+    </div>
+  </div>
+</body>
+</html>
